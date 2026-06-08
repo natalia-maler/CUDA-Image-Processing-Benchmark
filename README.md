@@ -1,5 +1,7 @@
 GPU vs CPU image processing benchmark using CUDA and Numba.
 
+The project was developed and executed in the Google Colab environment with enabled CUDA GPU acceleration.
+
 This project compares the performance of CPU and GPU implementations of basic image processing algorithms:
 - Mean Filter
 - Gaussian Blur
@@ -8,6 +10,8 @@ This project compares the performance of CPU and GPU implementations of basic im
 The goal of the project is to demonstrate parallel image processing using CUDA and analyze performance scaling for different image sizes.
 
 Technologies: Python, CUDA, Numba, NumPy, Matplotlib, OpenCV
+
+GPU benchmarks were performed using the GPU environment available in Google Colab.
 
 ## Features
 - CPU implementations using Numba JIT
